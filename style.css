@@ -1,4 +1,5 @@
 body{
+    text-align: center;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #000000;
 }
@@ -19,8 +20,20 @@ button{
     width: 1000px;
 }
 
+.box img{
+    border-radius: 35px;
+    width: 20%;
+}
 .cards{
     list-style: none;
-    width: 0.2em;
-    border-radius: 1000px;
+}
+
+button{
+    height: 40px;
+    width: 170px;
+    background-color: #000000;
+    border-bottom: 2px solid;
+    border-color: #ffffff;
+    border-radius: 5px;
+    font-size: medium;
 }
