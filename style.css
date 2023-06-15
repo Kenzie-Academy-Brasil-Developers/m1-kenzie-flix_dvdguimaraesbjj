@@ -1,31 +1,64 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
     text-align: center;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #000000;
 }
 
+h1{
+    font-weight: bold;
+    font-size: x-large;
+}
+
 h1, button{
     color: #ffffff;
-}
-ul{
-    color: #808080;
 }
 
 button{
     background-color: #000000;
 }
 
-.box{
-    height: 1000px;
+.container{
     width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+
 }
 
-.box img{
-    border-radius: 35px;
-    width: 20%;
-}
-.cards{
+.container-cards{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cards{
+    width: 20%;
+    color: #808080;
+}
+.cards:hover{
+    color: #ffffff;
+}
+
+
+.imgPerfil{
+    width: 100%;
+    border-radius: 15px;
+}
+.imgPerfil:hover{
+    border: 1px solid #ffffff;
+
 }
 
 button{
@@ -36,4 +69,8 @@ button{
     border-color: #ffffff;
     border-radius: 5px;
     font-size: medium;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #000000;
 }
